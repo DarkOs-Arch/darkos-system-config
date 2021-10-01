@@ -3,7 +3,7 @@ Description=checks if installed on virtual machine or not
 
 [Service]
 Type=oneshot
-ExecStart=/usr/local/bin/darkos-virtual-machine-check
+ExecStart=/usr/local/bin/virtual_machine_check
 
 [Install]
 WantedBy=multi-user.target
